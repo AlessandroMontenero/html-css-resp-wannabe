@@ -1,3 +1,17 @@
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+ 
+ /* Added a little transition when switching to mobile version */
+ .lessons .col,
+ .steps .col,
+ .why-us .col-right,
+ .why-us .col-left {
+    transition: width 0.2s linear;
+ }
+
+
+ 
 @media (max-width: 1140px) {
     .container {
         width: 100%;

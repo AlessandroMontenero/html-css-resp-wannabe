@@ -1,0 +1,22 @@
+@media (max-width: 1140px) {
+    .container {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-right,
+    .why-us .col-left {
+        width: 100%;
+    }
+
+}
